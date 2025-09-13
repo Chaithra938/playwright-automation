@@ -1,0 +1,19 @@
+{
+  "name": "new-project",
+  "version": "1.0.0",
+  "description": "Automation Playwright project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaithra938/playwright-automation.git"
+  },
+  "author": "Chaithra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaithra938/playwright-automation/issues"
+  },
+  "homepage": "https://github.com/Chaithra938/playwright-automation#readme"
+}
