@@ -2,18 +2,29 @@
   "name": "new-project",
   "version": "1.0.0",
   "description": "Automation Playwright project",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:all": "npx playwright test",
+    "build": "tsc",
+    "lint": "eslint . --ext .ts"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Chaithra938/playwright-automation.git"
   },
-  "author": "Chaithra",
+  "homepage": "https://github.com/Chaithra938/playwright-automation#readme",
+  "author": "Chaithra C <cchaithra252@gmail.com>",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Chaithra938/playwright-automation/issues"
-  },
-  "homepage": "https://github.com/Chaithra938/playwright-automation#readme"
+  "keywords": [
+    "playwright",
+    "automation",
+    "typescript",
+    "testing"
+  ],
+  "dependencies": {
+    "@playwright/test": "^1.55.0",
+    "dotenv": "^17.2.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
 }
