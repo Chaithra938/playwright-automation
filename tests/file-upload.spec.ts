@@ -5,7 +5,7 @@ import { USERNAME, PASSWORD } from '../playwright.config';
 
 test('Automate form creation with upload flow', async ({ page }) => {
   const formPage = new FileUploadPage(page);
-
+  await formPage.navigateToApp('https://example.com'); 
   await formPage.loginToTheApplication(USERNAME, PASSWORD);
   await formPage.navigateToAutomation();
   await formPage.selectForm();

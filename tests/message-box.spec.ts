@@ -6,6 +6,7 @@ import { USERNAME, PASSWORD } from '../playwright.config';
 test('Automate message box task creation', async ({ page }) => {
   const messageBoxPage = new MessageBoxPage(page);
 
+  await messageBoxPage.navigateToApp('https://example.com'); 
   await messageBoxPage.loginToTheApplication(USERNAME, PASSWORD);
   await messageBoxPage.navigateToAutomation();
   await messageBoxPage.createTaskBot();

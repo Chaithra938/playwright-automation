@@ -29,15 +29,21 @@ This repository contains UI and API automation for an application using Playwrig
 	- `base/`: Base page class for shared login and navigation logic
 	- `playwright.config.ts`: Playwright configuration and environment variable loading
 
-5. **Run UI Tests**
-	```sh
-	npx playwright test
-	```
+## Available Scripts
 
-6. **Run API Tests**
-	```sh
-	npx playwright test tests/api-instance.spec.ts
-	```
+- **Run all tests**
+  ```sh
+  npm run test:all
+  ```
+- **Run UI Tests**
+  ```sh
+  npx playwright test
+  ```
+
+- **Run API Tests**
+  ```sh
+  npx playwright test tests/api-instance.spec.ts
+  ```
 
 ## Key Features
 - Page Object Model for maintainable UI automation
